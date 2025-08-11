@@ -1,5 +1,5 @@
 body {
-background-color: rgb(212, 140, 152);
+background-color: #1D4221;
 color: white;
 font-family: "Bai Jamjuree", sans-serif;
 display: flex;
@@ -10,7 +10,15 @@ margin: 0;
 }
 
 button {
-background-color: rgb(190, 108, 122);
+background-color: #64A712;
 color: white;
 font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
 }
